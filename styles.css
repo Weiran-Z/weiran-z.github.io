@@ -1,0 +1,85 @@
+/*
+  --cream: #F5EFE6;
+  --beige: #E8DFCA;
+  --greyblue: #AEBDCA;
+  --blue:  #7895B2;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Italiana:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F5EFE6;
+}
+
+.header {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.main {
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.diamond {
+  width: 0;
+	height: 0;
+	border: 600px solid transparent;
+	border-bottom: 400px solid #F5EFE6;
+	position: relative;
+	top: -500px;
+}
+
+.diamond:after {
+	content: '';
+	position: absolute;
+	left: -600px;
+	top: 400px;
+	width: 0;
+	height: 0;
+	border: 600px solid transparent;
+	border-top: 400px solid #F5EFE6;
+  z-index: -1;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.first-heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.second-heading {
+  font-family: 'Italiana', sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+}
+
+.tagline {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #7895B2;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #AEBDCA;
+  text-decoration: underline;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 18px;
+}
