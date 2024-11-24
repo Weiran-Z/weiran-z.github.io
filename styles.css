@@ -1,0 +1,28 @@
+body {
+    background-color: #e8dfd8;
+    font-family: 'Lora', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+a {
+    color: #231f21;
+    font-weight: 600;
+    font-size: larger;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lead {
+    padding-top: 30px;
+}
+
+p > mb-3 {
+    width: max-content;
+}
