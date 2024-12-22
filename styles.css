@@ -69,7 +69,7 @@ hr {
     display: inline-block;
 }
 
-details:hover {
+summary:hover {
     cursor: pointer;
 }
 
@@ -142,4 +142,15 @@ details:hover {
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 720px) {
+    .intro-box {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .portrait {
+        margin: 20px auto;
+    }
 }
