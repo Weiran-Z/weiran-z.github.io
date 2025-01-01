@@ -1,6 +1,6 @@
 <!-- 
 The Year Compass
-2024-12-31
+2024-12-29
 -->
 
 Hey friend, how was your December? It's crazy that 2024 is almost over. Have you set your New Year's resolutions yet?
