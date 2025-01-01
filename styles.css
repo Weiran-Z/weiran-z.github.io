@@ -202,3 +202,14 @@ summary:hover {
 .blog p>img {
     max-width: 100% ;
 }
+
+.blog {
+    font-size: 18px;
+    line-height: 1.55;
+    margin: 12px auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
