@@ -198,3 +198,7 @@ summary:hover {
 .emoji {
   font-size: 1rem;
 }
+
+.blog p>img {
+    max-width: 100% ;
+}
